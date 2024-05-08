@@ -1,0 +1,42 @@
+﻿/*nhung css theo kieu   style*/
+
+
+/*  kiểu 1:vung chon theo ten the HTML
+
+h1 (tên vùng chọn )  {
+    (thuộc tính : giá trị ;)
+    color:blue;
+    }
+
+*/
+
+/* Kiểu 2:vung chon theo ID*/
+    
+/*
+#tieude{
+color:red;
+}
+    */
+
+/*kiểu 3: vùng chọn theo Class */
+/*
+.tieu-de {
+    color:green;
+}
+*/
+
+/*kieu 4: vung chon thu cap
+
+#menu  ul li {
+    background-color:aqua;
+    color:red;
+}
+*/
+/*kieu 5 vung chon thu cap lien nhau*/
+
+#menu ul ul >p {
+    background-color: aqua;
+    color: red;
+}
+
+

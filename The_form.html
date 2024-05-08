@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Thẻ form tronng html </title>
+</head>
+<body>
+<!--thẻ feildset giúp tạo ra bộ khung của form -->
+    <fieldset>
+        <legend> <h4>Đăng ký thành viên</h4></legend>
+        <form action="" method="">
+
+            <p>
+                <input type="text" name="name" value="" id="" placeholder="Nhập họ và tên" />
+            </p>
+            <p>
+                <input type="date" name="name" value="" id="" placeholder="Nhập ngày sinh" />
+            </p>
+            <p>
+                <input type="number" name="name" value="" id="" placeholder="Nhập số điện thoại" />
+            </p>
+            <p>
+                <input type="email" name="email" value="" id="" placeholder="Nhập email" />
+            </p>
+            <p>
+                <input type="password" name="email" value="" id="" placeholder="Nhập mật khẩu" />
+            </p>
+
+            <!--sử dụng radio để tạo nhiều lựa chọn nhưng chỉ chọn đc 1-->
+            <label for="gender">Giới tính</label>
+            <label>   <input type="radio" name="gender" value="" id="gender" />Nam  </label>
+            <label> <input type="radio" name="gender" value="" id="gender" />Nữ    </label>
+            <label> <input type="radio" name="gender" value="" id="gender" />Khác   </label>
+                
+                <!--sử dụng checkbox để tạo nhiều lựa chọn nhưng  chọn đc nhiều -->
+                <p>
+                    <label for="gender">Sở thích</label>
+                    <label>   <input type="checkbox" name="gender1" value="" id="gender" />Bóng bàn  </label>
+                    <label> <input type="checkbox" name="gender2" value="" id="gender" />Cầu lông   </label>
+                    <label> <input type="checkbox" name="gender3" value="" id="gender" />Bóng đá  </label>
+                </p>
+
+
+                <!-- thẻ seleect giup chon nhung lua chon co san-->
+                <label>Area</label>
+                <select name=" Area">
+                    <option value="1">Viet Nam</option>
+                    <option value="1">China</option>
+                    <option value="1">Japan</option>
+                    <option value="1">United Kingdom</option>
+                    <option value="1">United States</option>
+                </select>
+                <br />
+                <br />
+                <label>Giới thiệu bản thân</label>
+                <br />
+                <textarea rows="5" cols="50"></textarea>
+
+                <p>
+                    <button>
+                        Đăng ký
+                    </button>
+
+                    <button type="reset">
+                        Làm lại
+                    </button>
+                </p>
+
+        </form>
+    
+    </fieldset>
+
+
+
+
+
+
+
+
+</body>
+</html>
